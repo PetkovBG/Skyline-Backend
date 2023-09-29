@@ -4,7 +4,7 @@ const propertySchema = new mongoose.Schema({
   title: {
     type: String,
     required: [true, "Title is required"],
-    maxLength: 25,
+    maxLength: 40,
   },
   description: {
     type: String,
